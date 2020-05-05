@@ -1,19 +1,12 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { NavigationContainer } from "@react-navigation/native";
 
-export default function App() {
+import Navigation from "./Components/Navigation";
+
+export default function Main() {
   return (
-    <View style={styles.container}>
-      <Text>Hello world!</Text>
-    </View>
+    <NavigationContainer>
+      <Navigation />
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
