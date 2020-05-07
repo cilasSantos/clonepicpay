@@ -11,6 +11,9 @@ import {
 
 import { MaterialCommunityIcons, AntDesign } from "@expo/vector-icons";
 import Suggestions from "../../Components/Suggestions";
+import Activities from "../../Components/Activities";
+import Tips from "../../Components/Tips";
+import Banner from "../../Components/Banner";
 
 export default function Home() {
   return (
@@ -31,6 +34,9 @@ export default function Home() {
           <AntDesign name="gift" size={30} color="#10c86e" />
         </Header>
         <Suggestions />
+        <Activities />
+        <Tips />
+        <Banner />
       </Container>
     </Wrapper>
   );
