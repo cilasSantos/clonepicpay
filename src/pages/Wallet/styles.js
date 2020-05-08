@@ -7,7 +7,7 @@ export const Wrapper = styled.View`
 `;
 
 export const Header = styled(LinearGradient)`
-  height: 300px;
+  height: 250px;
 `;
 
 export const HeaderContainer = styled.SafeAreaView`
@@ -85,6 +85,7 @@ export const UseBalanceTitle = styled.Text`
 export const PaymentMethods = styled.View`
   margin-top: 25px;
   padding: 0 16px;
+  height: 300px;
 `;
 
 export const PaymentMethodsTitle = styled.Text`
@@ -124,7 +125,7 @@ export const CardBody = styled.View`
 `;
 
 export const CardFooter = styled.View`
-  padding: 15px;
+  padding: 10px;
 `;
 
 export const CardButton = styled.TouchableOpacity`
@@ -140,7 +141,7 @@ export const LabelButton = styled.Text`
 `;
 
 export const TicketContainer = styled.View`
-  margin-top: 25px;
+  margin-top: 20px;
 `;
 
 export const TicketButton = styled.TouchableOpacity`
