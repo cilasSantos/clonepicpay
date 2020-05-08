@@ -2,7 +2,7 @@
    <img alt="License" src="tela.gif">
 </p>
 
-<p align="center"> <strong>Clonando a interface do PicPay</strong> 🎓</p>
+<p align="center"> <strong>Clonando a interface do app PicPay</strong> 🎓</p>
 
 
 <p align="center">
