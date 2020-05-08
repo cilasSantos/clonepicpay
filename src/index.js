@@ -2,7 +2,7 @@ import React from "react";
 import { StatusBar } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 
-import Navigation from "./Components/Navigation";
+import Navigation from "./routes";
 
 export default function Main() {
   return (

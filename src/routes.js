@@ -2,11 +2,11 @@ import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { Ionicons, AntDesign } from "@expo/vector-icons";
 
-import Home from "../../pages/Home";
-import Wallet from "../../pages/Wallet";
-import Pay from "../../pages/Pay";
+import Home from "./pages/Home";
+import Wallet from "./pages/Wallet";
+import Pay from "./pages/Pay";
 
-import PayButton from "../PayButton";
+import PayButton from "./Components/PayButton";
 
 const Tab = createBottomTabNavigator();
 
@@ -36,6 +36,7 @@ const icons = {
 export default function Navigation() {
   return (
     <Tab.Navigator
+      initialRouteName="Home"
       screenOptions={({ route, navigation }) => ({
         tabBarIcon: ({ color, size, focused }) => {
           if (route.name === "Pay")
